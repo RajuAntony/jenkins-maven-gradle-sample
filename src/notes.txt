@@ -1,0 +1,47 @@
+----- section 3 ---------------------------------
+----------------------------------------------------
+
+	Installing Jenkins
+       ----------------------------------------------------------------------
+
+        check jdk installed
+        SET JAVA_HOME
+        edit .bash_profile  and type
+        export JAVA_HOME=/usr/lib/jvm/java -1.7.0
+
+       and append path with :$JAVA_HOME/bin
+
+
+      Configuring jenkins
+      ----------------------------------------------
+       build pipeline plugin - graphical for pipeline plugin 
+
+       DEMO - BUILD PIPELINE VIEW
+       -------------------------------------------------------
+       1) click + item on jenkins dashboard
+       2) select pieeline and enter name for it
+       3) name build pipeline title and save it
+
+
+      We can add an job on existing job by adding in  post build action and build other projects
+
+      add a parent job on pipeline
+
+
+
+   -------------------------------------------------------
+   Create Aartifactory
+  ----------------------------------------------------------
+
+
+
+
+ --- CI/CD with gradle ---------------------------
+
+ configure with artifactory
+
+add aritifactory plugin
+
+
+
+
